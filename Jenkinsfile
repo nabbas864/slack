@@ -9,6 +9,5 @@ node{
    }
    
    stage('Slack Notification'){
-       slackSend baseUrl: 'https://hooks.slack.com/services/https://hoo/', channel: '#jenkins-norway', color: 'good', message: 'Jenkins notificationss, Slack!', teamDomain: 'slackdevOps', tokenCredentialId: 'slack-test1'
-   }
+       slackSend baseUrl: 'https://hooks.slack.com/services/', channel: '#jenkins-norway', color: 'good', message: 'Jenkins notificationss, Slack!', teamDomain: 'slackdevOps', tokenCredentialId: 'slack-test2'  }
 }
