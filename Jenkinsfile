@@ -9,7 +9,7 @@ node{
    }
    
    stage('Slack Notification'){
-       slackSend baseUrl: 'https://hooks.slack.com/services/https://hoo/', 
+       slackSend baseUrl: 'https://hooks.slack.com/services/, 
           channel: '#jenkins-norway', 
           color: 'good', 
           message: 'Jenkins notifications, Slack!', 
