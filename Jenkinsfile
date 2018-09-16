@@ -13,11 +13,11 @@ node{
       Hari''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job', to: 'hari.kammana@gmail.com'
    }
    stage('Slack Notification'){
-       slackSend baseUrl: 'https://hooks.slack.com/services/',
-       channel: '#jenkins-pipeline-demo',
-       color: 'good', 
-       message: 'Welcome to Jenkins, Slack!', 
-       teamDomain: 'javahomecloud',
-       tokenCredentialId: 'slack-demo'
+       slackSend baseUrl: 'https://hooks.slack.com/serviceshttps://hoo/', 
+          channel: '#jenkins-norway', 
+          color: 'good', 
+          message: 'Jenkins notifications, Slack!', 
+          teamDomain: 'slackdevOps', 
+          tokenCredentialId: 'slack-test'
    }
 }
